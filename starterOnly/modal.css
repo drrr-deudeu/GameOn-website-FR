@@ -501,15 +501,18 @@ footer {
   padding-right: 2vw;
   margin: 0 20px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .hero-section {
     display: block;
     box-shadow: unset;
   }
   .hero-content {
-    background: #fff;
-    color: #000;
+    /* background: #fff;
+    color: #000; */
+    background: #000;
+    color: #fff;
     padding: 20px;
+    min-width: 100%;
   }
   .hero-content::after {
     content: unset;
@@ -518,7 +521,7 @@ footer {
     display: none;
   }
   .hero-headline {
-    font-size: 4.5rem;
+    font-size: 8.5vw;
     white-space: normal;
   }
   .hero-text {
