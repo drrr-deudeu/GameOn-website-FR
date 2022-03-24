@@ -18,13 +18,13 @@
       </div>
       <div class="main-navbar">
       
-      <a href="#" class="active"><span>Accueil</span></a>
-      <a href="#"><span>Détails de l'évènement</span></a>
-      <a href="#"><span>À propos</span></a>
-      <a href="#"><span>Contact</span></a>
-      <a href="#"><span>Évènements passés</span></a>
+      <a href="#" class="active menuitem"><span>Accueil</span></a>
+      <a href="#" class="menuitem"><span>Détails de l'évènement</span></a>
+      <a href="#" class="menuitem"><span>À propos</span></a>
+      <a href="#" class="menuitem"><span>Contact</span></a>
+      <a href="#" class="menuitem"><span>Évènements passés</span></a>
       <a href="javascript:void(0);" class="icon" onclick="editNav()">
-        <i class="fa fa-bars"></i>
+        <i class="fa fa-bars fa-lg"></i>
       </a>
       </div>
     </div>
@@ -53,8 +53,9 @@
       <div class="bground1">
         <div class="content content1">
           <div class="modal-body modal-body1"> 
-            <div class="confirm1">Merci ! Votre réservation a été reçue.</div>
-            <div class="btn-submit button modal-btn1">OK</div>
+            <!-- <div class="confirm1">Merci ! Votre réservation a été reçue.</div> -->
+            <div class="confirm1">Merci pour votre inscription</div>
+            <div class="btn-submit button modal-btn1">Fermer</div>
           </div>
         </div>
       </div>
@@ -93,7 +94,7 @@
                 <label for="email">E-mail</label><br>
                 <input
                   class="text-control"
-                  type="email"
+                  type="text"
                   id="email"
                   name="email"
                 /><br>
@@ -189,7 +190,6 @@
                   class="checkbox-input"
                   type="checkbox"
                   id="checkbox1"
-                  checked
                 />
                 <label class="checkbox2-label no-bottom" for="checkbox1" >
                   <span class="checkbox-icon"></span>
