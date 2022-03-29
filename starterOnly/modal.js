@@ -295,8 +295,8 @@ formEl.addEventListener("submit", function (event) {
   // first=dd&last=dd&email=dd%40d.org&birthdate=2001-02-03&quantity=2&location=San+Francisco&checkbox1=&checkbox2=
   fetch(url, {
     method: "GET"})
-    .then((response) => console.log("fetch ok?"+response.ok+response.status))
-    .catch(e => console.log("something went wrong: " + e))
+    // .then((response) => console.log("fetch ok?"+response.ok+response.status))
+    // .catch(e => console.log("something went wrong: " + e))
   
   // on affiche la fenetre d'inscription effectuée si reponse serveur ok (bon ici il n'y a pas de serveur)
   modalbg1.style.display = "block"; 
