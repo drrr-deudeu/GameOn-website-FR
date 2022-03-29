@@ -15,6 +15,7 @@ const modalBtn1 = document.querySelectorAll(".modal-btn1");
 const formData = document.querySelectorAll(".formData");
 const modalBody = document.querySelectorAll(".modal-body");
 const closeBtn = document.querySelectorAll(".close");
+const closeBtn1 = document.querySelectorAll(".close1");
 const formEl = document.getElementById("reserve");
 const confirmEl = document.querySelectorAll(".bground");
 const locationEl = document.querySelectorAll('[name="location"]');
@@ -98,6 +99,8 @@ modalBtn1.forEach((btn) => btn.addEventListener("click", closeModal1));
 
 // close modal event
 closeBtn.forEach((btn) => btn.addEventListener("click", closeModal));
+// close modal event
+closeBtn1.forEach((btn) => btn.addEventListener("click", closeModal1));
 
 // launch modal form
 function launchModal() {
